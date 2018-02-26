@@ -57,7 +57,7 @@ h2      {
         color: steelblue;
 }
 
-/* line under h2 */
+/* line under h2 used in main content div*/
 #hr2    {  
         height: 3px;
         margin: 0rem 2rem 0rem 2rem;
@@ -155,11 +155,9 @@ input[type="submit"]    {
 
 /* right-hand 'follow me' styles */
 .r-sidebar  {
-        float: right;
+        float: left;
         width: 270px;
-        margin-right: 5vw;
-        margin-bottom: 3vw;
-        margin-left: 40px;
+        margin: 0vw 0vw 3vw 5vw;
         padding: 1% 2% 1% 2%;
         background-color: white;
 }
